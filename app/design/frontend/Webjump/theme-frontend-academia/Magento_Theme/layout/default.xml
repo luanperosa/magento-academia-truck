@@ -1,0 +1,35 @@
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="logo">
+            <arguments>
+                <argument name="logo_file" xsi:type="string">images/new_logo.png</argument>
+                <argument name="logo_width" xsi:type="number">89</argument>
+                <argument name="logo_height" xsi:type="number">62</argument>
+                <argument name="logo_alt" xsi:type="string">Logo_Truck</argument>
+            </arguments>
+        </referenceBlock>
+
+        <referenceBlock name="top.links" remove="true" />
+        <referenceContainer name="footer" remove="true" />
+
+        <referenceContainer name="header-wrapper">
+            <container name="container-icons" htmlClass="div-icons" htmlTag="div" >
+                <block name="academia-search" as="academia-search" after="top.search" template="Magento_Theme::search-icon.phtml" />
+                <block name="academia-my-account" as="academia-my-account" after="academia-search" template="Magento_Theme::account-link.phtml" />
+                <block name="academia-cart" after="academia-my-account" template="Magento_Theme::cart-icon.phtml" />
+            </container>
+        </referenceContainer>
+
+        <move element="minicart" destination="header-wrapper" after="academia-my-account" />
+        <move element="navigation.sections" destination="header-wrapper" after="logo" />
+
+        <referenceContainer name="footer-container">
+            <container name="div-footer" htmlClass="div-footer" htmlTag="div">
+                <block name="academia-footer" as="academia-footer" class="Magento\Customer\Block\Account\Customer" template="Magento_Theme::footer.phtml">
+                    <block name="academia-footer-son" as="academia-footer-son" template="Magento_Theme::footer-son.phtml" />
+                </block>
+            </container>
+        </referenceContainer>
+
+    </body>
+</page>

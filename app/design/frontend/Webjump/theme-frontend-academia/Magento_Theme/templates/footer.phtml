@@ -1,0 +1,10 @@
+<div class="footer-academia">
+  <p>Truck Transport ©Todos os Direitos reservados</p>
+  <?= $block->getChildHtml('academia-footer-son') ?>
+</div>
+
+<?php if ($block->customerLoggedIn()) : ?>
+    <p>Logado</p>
+<?php else: ?>
+    <p>Deslogado</p>
+<?php endif; ?>

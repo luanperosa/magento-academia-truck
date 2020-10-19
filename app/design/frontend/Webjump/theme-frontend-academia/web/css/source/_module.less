@@ -1,0 +1,74 @@
+& when (@media-common = true) {
+  .footer-academia {
+    .lib-vendor-prefix-display(flex);
+    justify-content: center;
+    min-height: 65px;
+    color: #707070;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1.4px;
+    border-top: 1px solid;
+    padding: 10px;
+  }
+
+  .page-wrapper {
+    .page-header {
+      .header.panel {
+        padding: 0;
+      }
+
+      .panel.wrapper {
+        border: none;
+      }
+
+        #search_mini_form, .minicart-wrapper {
+            .lib-visually-hidden();
+        }
+    }
+
+    .navigation {
+      background-color: @color-white;
+      color: #c70041;
+      font-family: Montserrat;
+      font-size: 16px;
+      font-weight: 500;
+      text-transform: uppercase;
+
+      .level0.parent > .level-top {
+        padding-right: 30px;
+
+        .ui-menu-icon {
+          bottom: 2px;
+
+          &:after {
+            font-size: 40px;
+          }
+        }
+
+      }
+
+    }
+
+    .action.advanced {
+      .lib-visually-hidden();
+    }
+
+    .header.content {
+        .lib-vendor-prefix-display(flex);
+        justify-content: space-between;
+        max-width: 1190px;
+
+        .sections.nav-sections {
+            background: #ffffff;
+            margin-left: 60px;
+        }
+    }
+  }
+
+  #maincontent {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+}
