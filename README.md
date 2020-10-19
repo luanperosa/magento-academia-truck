@@ -1,27 +1,22 @@
 # magento-academia-truck - Projeto Final
 
-### O objetivo desse projeto é demonstrar o entendimento básico de criação e customização de um tema do Magento. Para essas tarefas usaremos um layout que se encontra no avocode, para encontra-lo procure pelo projeto REACT. Para que o projeto não fique muito extenso, utilizaremos apenas os arquivos Guia-Estilos e 00-Home-Scania
+## The purpose of this project is to demonstrate the basic understanding of creating and customizing a Magento theme. For these tasks we will use a layout found in the avocode, to find it look for the REACT project. So that the project is not too extensive, we will only use the Guia-Styles and 00-Home-Scania files.
 
-    [x] Crie um tema
+### Targets
 
-    [x] Faça o fallback do aquivo de cores do tema, e insira as cores de acordo com o layout
+- [x] Create the Theme
+- [x] Use fallback file of colors Theme
+- [x] Style header
+- [x] Logo
+- [x] Categories
+- [x] Icons
+- [x] Position
+- [x] Style footer layout
+- [x] Content shoud be able change from admin panel
+- [x] Create promotional theme in de schedule
 
-    [x] Crie o header do layout
+### :rocket: Tecnologies
+- [Magento2](https://devdocs.magento.com)
 
-    [x] Logo
-
-    [x] Categorias
-
-    [x] Ícones
-
-    [x] Posicionamento
-
-    [x] Crie o footer do layout
-
-    [x] O conteúdo deve ser parametrizável pelo admin
-
-    [x] A estrutura pode ser feita com mais de um bloco estático
-
-    [x] Crie um tema para um perído promocional
-
-    [x] Altere as cores do projeto
+#### Helper Links
+- [Avocode](https://app.avocode.com/revisions/42554536/?design=27824417)
