@@ -1,4 +1,4 @@
-# magento-academia-truck - Projeto Final
+# Magento-academia-truck - Final Project - Academia Webjump
 
 ## The purpose of this project is to demonstrate the basic understanding of creating and customizing a Magento theme. For these tasks we will use a layout found in the avocode, to find it look for the REACT project. So that the project is not too extensive, we will only use the Guia-Styles and 00-Home-Scania files.
 
